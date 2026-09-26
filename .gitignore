@@ -1,0 +1,53 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large media / local data (do not push)
+files/
+demoImages/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Data & outputs (keep structure, ignore large files)
+data/raw/**
+data/processed/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+output/**
+!output/.gitkeep
+models/weights/**
+!models/weights/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env secrets
+.env
+.env.*
+
+# Temp diagram files from PDF generator
+_*.png

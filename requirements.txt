@@ -1,0 +1,30 @@
+# Core
+numpy>=1.26.0
+opencv-python>=4.9.0
+pillow>=10.0.0
+
+# Deep learning — object detection & pose
+ultralytics>=8.3.0
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Tracking & signal processing
+filterpy>=1.4.5
+scipy>=1.11.0
+
+# Visualization & debugging
+matplotlib>=3.8.0
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Utilities
+pandas>=2.1.0
+tqdm>=4.66.0
+pyyaml>=6.0.0
+
+# Video export helper (optional — ffmpeg must be installed separately)
+imageio>=2.33.0
+imageio-ffmpeg>=0.4.9
+
+# PDF roadmap generator (optional)
+reportlab>=4.0.0
